@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="edge">
+  <title>摩宝网</title>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING:Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+        <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layer.css">
+</head>
+
+<body>
+  <div class="top">
+    <div class="warrper">
+      <div class="fl col-md-2">您所在的位置：
+        <div class="btn-group">
+          <a class="dropdown-toggle" data-toggle="dropdown">东莞<span class="caret"></span></a>
+          <ul class="dropdown-menu location" role="menu">
+            <li><a href="javascript:(0)" class="on">北京</a></li>
+            <li><a href="javascript:(0)">上海</a></li>
+            <li><a href="javascript:(0)">天津</a></li>
+            <li><a href="javascript:(0)">重庆</a></li>
+            <li><a href="javascript:(0)">河北</a></li>
+            <li><a href="javascript:(0)">山西</a></li>
+            <li><a href="javascript:(0)">河南</a></li>
+            <li><a href="javascript:(0)">辽宁</a></li>
+            <li><a href="javascript:(0)">吉林</a></li>
+            <li><a href="javascript:(0)">黑龙</a></li>
+            <li><a href="javascript:(0)">江内</a></li>
+            <li><a href="javascript:(0)">蒙古</a></li>
+            <li><a href="javascript:(0)">江苏</a></li>
+            <li><a href="javascript:(0)">山东</a></li>
+            <li><a href="javascript:(0)">安徽</a></li>
+            <li><a href="javascript:(0)">浙江</a></li>
+            <li><a href="javascript:(0)">福建</a></li>
+            <li><a href="javascript:(0)">湖北</a></li>
+            <li><a href="javascript:(0)">湖南</a></li>
+            <li><a href="javascript:(0)">广东</a></li>
+            <li><a href="javascript:(0)">广西</a></li>
+            <li><a href="javascript:(0)">江西</a></li>
+            <li><a href="javascript:(0)">四川</a></li>
+            <li><a href="javascript:(0)">海南</a></li>
+            <li><a href="javascript:(0)">贵州</a></li>
+            <li><a href="javascript:(0)">云南</a></li>
+            <li><a href="javascript:(0)">西藏</a></li>
+            <li><a href="javascript:(0)">陕西</a></li>
+            <li><a href="javascript:(0)">甘肃</a></li>
+            <li><a href="javascript:(0)">青海</a></li>
+            <li><a href="javascript:(0)">宁夏</a></li>
+            <li><a href="javascript:(0)">新疆</a></li>
+            <li><a href="javascript:(0)">台湾</a></li>
+            <li><a href="javascript:(0)">香港</a></li>
+            <li><a href="javascript:(0)">澳门</a></li>
+            <li><a href="javascript:(0)">钓鱼</a></li>
+            <li><a href="javascript:(0)">岛海外</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="btn-group col-md-1">
+        <a class="dropdown-toggle" data-toggle="dropdown">微信公众号<span class="caret"></span></a>
+        <div class="dropdown-menu ta-mid" role="menu">
+          <img src="images/qrcode.png" alt="" class="qrcode">
+        </div>
+      </div>
+      <div class="fr col-md-5">
+        <a href="#" class="favourite col-md-2 ta-mid"></a>
+        <a href="#" class="favourite col-md-3 ta-mid"><i class="glyphicon glyphicon-heart" style="margin-right:5px"></i>我的收藏</a>
+        <a href="#" class="my-order col-md-3 ta-mid"><i class="glyphicon glyphicon-list-alt" style="margin-right:5px"></i>我的订单</a>
+        <a href="#" class="login col-md-2 ta-mid"><i class="glyphicon glyphicon-user" style="margin-right:5px"></i>登录</a>
+        <a href="#" class="reg col-md-2 ta-mid"><i class="glyphicon glyphicon-edit" style="margin-right:5px"></i>注册</a>
+      </div>
+    </div>
+  </div>
+  <div class="logo" id="list_top">
+    <div class="warrper" style="overflow:hidden">
+      <div class="col-md-3 ta-left logo">
+        <img src="images/logo.png" alt="摩宝网logo">
+      </div>
+      <div class="search fr" style="display:block">
+        <input type="search fl" placeholder="请输入您想搜索的关键词">
+        <i class="fr glyphicon glyphicon-search"></i>
+      </div>
+    </div>
+  </div>
+  <div id="list_menu">
+    <div class="warrper">
+      <a href="#" id="fist_menu">全部商品分类</a>
+      <ul class="nav_top fr ta-right">
+        <li><a href="#">美食</a></li>
+        <li><a href="#">电影</a></li>
+        <li><a href="#">休闲娱乐</a></li>
+        <li><a href="#">购物</a></li>
+        <li><a href="#">生活服务</a></li>
+        <li><a href="#">酒店</a></li>
+        <li><a href="#">丽人</a></li>
+        <li><a href="#">周边游</a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#">服装鞋包</a>
+          <ul class="submenu">
+            <li><a href="#">男装</a></li>
+            <li><a href="#">流行男鞋</a></li>
+            <li><a href="#">女装/女士</a></li>
+            <li><a href="#">精品女鞋</a></li>
+            <li><a href="#">箱包皮具/热销女包/男包女士</a></li>
+            <li><a href="#">内衣/男士内衣/家居服</a></li>
+            <li><a href="#">服饰配件/皮带/帽子/围巾</a></li>
+            <li class="ad top">
+              <a href="#">
+                <img src="images/ad_default.jpg" alt=""></a>
+            </li>
+            <li class="ad bottom">
+              <a href="#">
+                <img src="images/ad_default.jpg" alt=""></a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">美妆饰品</a>
+          <ul class="submenu">
+            <li><a href="#">彩妆/香水/美妆工具</a></li>
+            <li><a href="#">美容护肤/美体/精油</a></li>
+            <li><a href="#">美发护发/假发</a></li>
+            <li><a href="#">珠宝/钻石/翡翠/黄金</a></li>
+            <li><a href="#">箱包皮具/热销女包/男包女士</a></li>
+            <li><a href="#">ZIPPO/瑞士军刀/眼镜</a></li>
+            <li><a href="#">饰品/流行首饰/时尚饰品</a></li>
+            <li><a href="#">手表</a></li>
+            <li class="ad top">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+            <li class="ad bottom">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">母婴用品</a>
+          <ul class="submenu">
+            <li><a href="#">奶粉/辅食/营养品/零食</a></li>
+            <li><a href="#">尿片/洗护/喂哺/推车床</a></li>
+            <li><a href="#">孕妇装/孕产妇用品/营养</a></li>
+            <li><a href="#">童装/婴儿装/亲子装</a></li>
+            <li><a href="#">玩具/童车/益智/积木/模型</a></li>
+            <li><a href="#">童鞋/婴儿鞋/亲子鞋</a></li>
+            <li class="ad top">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+            <li class="ad bottom">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">家居建材</a>
+          <ul class="submenu">
+            <li><a href="#">家居饰品</a></li>
+            <li><a href="#">特色手工艺</a></li>
+            <li><a href="#">住宅家具</a></li>
+            <li><a href="#">商业/办公家具</a></li>
+            <li><a href="#">五金/工具电子/电工</a></li>
+            <li><a href="#">床上用品</a></li>
+            <li><a href="#">居家布艺</a></li>
+            <li><a href="#">全屋定制</a></li>
+            <li class="ad top">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+            <li class="ad bottom">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">运动户外</a>
+          <ul class="submenu">
+            <li><a href="#">运动/瑜伽/健身/球迷用品</a></li>
+            <li><a href="#">户外/登山/野营/旅行用品</a></li>
+            <li><a href="#">户外活动/赛事/线路/旅游产品</a></li>
+            <li><a href="#">运动服/休闲服装</a></li>
+            <li><a href="#">运动鞋运动包/户外包/配件</a></li>
+            <li><a href="#">自行车/骑行装备/零配件</a></li>
+            <li><a href="#">电动车/配件/交通工具</a></li>
+            <li class="ad top">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+            <li class="ad bottom">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">文化玩乐</a>
+          <ul class="submenu">
+            <li><a href="#">度假线路/签证送关/旅游服务</a></li>
+            <li><a href="#">特价酒店/特色客栈/公寓旅馆</a></li>
+            <li><a href="#">古董/邮币/字画/收藏</a></li>
+            <li><a href="#">书籍/报纸音乐/影视/明星/音像</a></li>
+            <li><a href="#">乐器/吉他/钢琴/配件</a></li>
+            <li><a href="#">宠物/宠物食品及用品</a></li>
+            <li><a href="#">景点门票/实景演出/主题乐园</a></li>
+            <li><a href="#">模玩/动漫/周边/cos/桌游</a></li>
+            <li class="ad top">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+            <li class="ad bottom">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">百货食品</a>
+          <ul class="submenu">
+            <li><a href="#">居家日用</a></li>
+            <li><a href="#">厨房/烹饪用具家庭/个人清洁工具</a></li>
+            <li><a href="#">传统滋补营养品</a></li>
+            <li><a href="#">零食/坚果/特产粮油</a></li>
+            <li><a href="#">米面/南北干货/调味品</a></li>
+            <li><a href="#">成人用品/情趣用品</a></li>
+            <li><a href="#">洗护清洁剂/卫生巾/纸/香薰</a></li>
+            <li class="ad top">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+            <li class="ad bottom">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">家用电器</a>
+          <ul class="submenu">
+            <li><a href="#">大家电家庭</a></li>
+            <li><a href="#">影音电器</a></li>
+            <li><a href="#">生活电器</a></li>
+            <li><a href="#">厨房电器</a></li>
+            <li><a href="#">个人护理/保健/按摩器材</a></li>
+            <li><a href="#">保健</a></li>
+            <li class="ad top">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+            <li class="ad bottom">
+              <a href="#"><img src="images/ad_default.jpg" alt=""></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="gray" id="page_contact">
+    <div class="warrper" style="overflow:hidden">
+      <div class="row">
+        <ul class="breadcrumb">
+          &nbsp;&nbsp;您现在的位置：
+          <li><a href="#">首页</a></li>
+          <li><a href="#">商品类</a></li>
+          <li class="active">商品细节</li>
+        </ul>
+        <div class="col-md-5">
+          <div id="preview" class="spec-preview"><span class="jqzoom"><img jqimg="images/test.jpg" src="images/test.jpg" /></span></div>
+          <div class="spec-scroll">
+            <a class="prev">&lt;</a><a class="next">&gt;</a>
+            <div class="items">
+              <ul>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="测试" bimg="images/test.jpg" src="images/test.jpg" onmousemove="preview(this);"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 row" style="background:#fff; height:556px">
+          <h4 style="margin-bottom:20px">帆布低帮套筒夏季女鞋 多色帆布鞋 2016新款</h4>
+          <h5 style="color:#e46714">【爆款热销】2016秋季猎豹跑鞋推荐，数量有限，支持货到付款，七天无理由退换！</h5>
+          <ul class="detail_bar clearfix">
+            <li>摩宝价：<font>1111.00 EP积分</font></li>
+            <li class="ta-right">销量：<font style="color:#555">989</font></li>
+            <li>人民币：￥168.00</li>
+            <li class="ta-right">累积评价：122+</li>
+          </ul>
+          <div class="model row">
+            <div class="col-md-3">
+              配送至：
+              <div class="btn-group">
+                <button class="send">东莞</button>
+                <button class="send dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                <ul class="dropdown-menu location">
+                  <li><a href="javascript:(0)" class="on">北京</a></li>
+                  <li><a href="javascript:(0)">上海</a></li>
+                  <li><a href="javascript:(0)">天津</a></li>
+                  <li><a href="javascript:(0)">重庆</a></li>
+                  <li><a href="javascript:(0)">河北</a></li>
+                  <li><a href="javascript:(0)">山西</a></li>
+                  <li><a href="javascript:(0)">河南</a></li>
+                  <li><a href="javascript:(0)">辽宁</a></li>
+                  <li><a href="javascript:(0)">吉林</a></li>
+                  <li><a href="javascript:(0)">黑龙</a></li>
+                  <li><a href="javascript:(0)">江内</a></li>
+                  <li><a href="javascript:(0)">蒙古</a></li>
+                  <li><a href="javascript:(0)">江苏</a></li>
+                  <li><a href="javascript:(0)">山东</a></li>
+                  <li><a href="javascript:(0)">安徽</a></li>
+                  <li><a href="javascript:(0)">浙江</a></li>
+                  <li><a href="javascript:(0)">福建</a></li>
+                  <li><a href="javascript:(0)">湖北</a></li>
+                  <li><a href="javascript:(0)">湖南</a></li>
+                  <li><a href="javascript:(0)">广东</a></li>
+                  <li><a href="javascript:(0)">广西</a></li>
+                  <li><a href="javascript:(0)">江西</a></li>
+                  <li><a href="javascript:(0)">四川</a></li>
+                  <li><a href="javascript:(0)">海南</a></li>
+                  <li><a href="javascript:(0)">贵州</a></li>
+                  <li><a href="javascript:(0)">云南</a></li>
+                  <li><a href="javascript:(0)">西藏</a></li>
+                  <li><a href="javascript:(0)">陕西</a></li>
+                  <li><a href="javascript:(0)">甘肃</a></li>
+                  <li><a href="javascript:(0)">青海</a></li>
+                  <li><a href="javascript:(0)">宁夏</a></li>
+                  <li><a href="javascript:(0)">新疆</a></li>
+                  <li><a href="javascript:(0)">台湾</a></li>
+                  <li><a href="javascript:(0)">香港</a></li>
+                  <li><a href="javascript:(0)">澳门</a></li>
+                  <li><a href="javascript:(0)">钓鱼</a></li>
+                  <li><a href="javascript:(0)">岛海外</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">库存：999+</div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="col-md-12 model cut_line">由 <a class="dropdown-toggle brand" data-toggle="dropdown">悠逸运动专营店</a> 从福建福州市 发货，并提供售后服务。点击商家名称联系商家
+            <div class="extInfo dropdown-menu">
+              <div class="brand-logo">
+                <img src="//img30.360buyimg.com/popshop/jfs/t2599/284/2994006207/10241/60767b10/577b20afNf6a8b4b4.jpg" title="佰草集官方旗舰店">
+              </div>
+              <div class="col-md-12 cut_line" style="padding:10px">商家好评率<font>98%</font></div>
+              <div class="clearfix">
+                <a href="#" target="_blank" class="btn fl">进店逛逛</a>
+                <a href="#" target="_blank" class="btn fr">联系卖家</a>
+                <a href="#" target="_blank" class="btn fl">收藏店铺</a>
+                <a href="#" target="_blank" class="btn fr">举报</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 model">
+            选择款式：
+            <ul class="nav nav-choice model">
+              <li class="active"><a href="#">白色</a></li>
+              <li><a href="#">黑色</a></li>
+              <li><a href="#">卡其色</a></li>
+            </ul>
+          </div>
+          <div class="col-md-12 model cut_line">
+            选择尺寸：
+            <ul class="nav nav-choice model">
+              <li class="active"><a href="#">41</a></li>
+              <li><a href="#">42</a></li>
+              <li><a href="#">43</a></li>
+            </ul>
+          </div>
+          <div class="col-md-12 model">
+            <span class="col-md-2 row"><input type="text" class="spinnerExample" /></span>
+            <span class="col-md-4">
+            <input type="button" class="btn buy fl" value="直接购买">
+            <input type="button" class="btn buycar fr" value="加入购物车">
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row-fluid row" style="margin-top:15px">
+        <div class="col-md-10">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab1" data-toggle="tab">商品介绍</a></li>
+            <li><a href="#tab2" data-toggle="tab">商品评价<font>(1.6万+)</font></a></li>
+            <li><a href="#tab3" data-toggle="tab">本店好评商品</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab1">
+              <h6 class="mt">商品详情</h6>
+              <p>
+                <img src="https://img30.360buyimg.com/popWaterMark/jfs/t3244/29/1323648833/515305/d8ee3f90/57ca2d24Ne7cd5f54.jpg" alt="" width="100%"></p>
+              <h6 class="mt">售后保障</h6>
+              <p style="font-size:1.5rem; line-height:32px">权利声明：
+                <br/> 摩宝上的所有商品信息、客户评价、商品咨询、网友讨论等内容，是摩宝网重要的经营资源，未经许可，禁止非法转载使用。
+                <br/> 注：本站商品信息均来自于合作方，其真实性、准确性和合法性由信息拥有者（合作方）负责。本站不提供任何保证，并不承担任何法律责任。
+                <br/>
+                <br/> 价格说明：
+                <br/> 摩宝价：摩宝价为商品的销售价，是您最终决定是否购买商品的依据。
+                <br/> 划线价：商品展示的划横线价格为参考价，该价格可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在摩宝平台上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。
+                <br/> 折扣：如无特殊说明，折扣指销售商在原价、或划线价（如品牌专柜标价、商品吊牌价、厂商指导价、厂商建议零售价）等某一价格基础上计算出的优惠比例或优惠金额；如有疑问，您可在购买前联系销售商进行咨询。
+                <br/> 异常问题：商品促销信息以商品详情页“促销”栏中的信息为准；商品的具体售价以订单结算页价格为准；如您发现活动商品售价或促销信息有异常，建议购买前先联系销售商咨询。
+                <br/>
+                <br/> 能效标识说明：
+                <br/> 根据国家相关能效标识法规和标准的要求，摩宝自营在售商品的能效标识图样，将会逐步替换为新版能源效率标识贴；受能效标识标准变化影响，部分产品的新版和旧版能效标识，在能效等级、测试值等方面会有差异，但产品实际性能完全一样，并不影响购买和使用，加贴新版或旧版能效标识的商品会随机发放，请您放心购买；如有疑问，请在购买前通过咚咚或来电咨询。
+              </p>
+            </div>
+            <div class="tab-pane" id="tab2">
+              <div class="col-md-12 cut_line">
+                <div class="col-md-2">
+                  <div class="rate">
+                    <strong>100<span>%</span></strong>
+                    <br />
+                    <span>好评度</span>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="percent">
+                    <dl>
+                      <dt>好评<span>(100%)</span></dt>
+                      <dd>
+                        <div style="width:100px;">
+                        </div>
+                      </dd>
+                    </dl>
+                    <dl>
+                      <dt>中评<span>(0%)</span></dt>
+                      <dd class="d1">
+                        <div style="width:0%;">
+                        </div>
+                      </dd>
+                    </dl>
+                    <dl>
+                      <dt>差评<span>(0%)</span></dt>
+                      <dd class="d1">
+                        <div style="width:0%;">
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 d_msg cut_line">
+                <div class="col-md-11">
+                  <span class="col-md-12"><span class="grade-star g-star5 fl"></span>用户评价</span>
+                  <span class="col-md-12" style="margin:10px 0">还行吧，可能是我的耳朵比较小，有点塞耳朵，如果能有不同尺寸选择相信隔音效果和舒适度会更好。</span>
+                  <div class="col-md-6 row">
+                    <a href="javascript:;" class="col-md-3"><img src="images/no_goods.png" alt="" width="100%" class="img-rounded user-goods" data-toggle="popover" /></a>
+                    <a href="javascript:;" class="col-md-3"><img src="images/no_goods.png" alt="" width="100%" class="img-rounded user-goods" data-toggle="popover" /></a>
+                    <a href="javascript:;" class="col-md-3"><img src="images/no_goods.png" alt="" width="100%" class="img-rounded user-goods" data-toggle="popover" /></a>
+                    <a href="javascript:;" class="col-md-3"><img src="images/no_goods.png" alt="" width="100%" class="img-rounded user-goods" data-toggle="popover" /></a>
+                  </div>
+                </div>
+                <div class="col-md-1 ta-mid">
+                  <img src="images/no_goods.png" class="img-circle" width="100%">
+                  <span class="mr-tb">美美哒</span>
+                  <span class="mr-tb">金卡会员</span>
+                  <span class="mr-tb">1天前</span>
+                </div>
+              </div>
+              <div class="col-md-12 d_msg cut_line">
+                <div class="col-md-11">
+                  <span class="col-md-12"><span class="grade-star g-star4 fl"></span>用户评价</span>
+                  <span class="col-md-12" style="margin:10px 0">还行吧，可能是我的耳朵比较小，有点塞耳朵，如果能有不同尺寸选择相信隔音效果和舒适度会更好。</span>
+                  <div class="col-md-6 row">
+                    <a href="#" class="col-md-3"><img src="images/no_goods.png" alt="" class="img-rounded user-goods" width="100%" data-toggle="popover" /></a>
+                    <a href="#" class="col-md-3"><img src="images/no_goods.png" alt="" class="img-rounded user-goods" width="100%" data-toggle="popover" /></a>
+                    <a href="#" class="col-md-3"><img src="images/no_goods.png" alt="" class="img-rounded user-goods" width="100%" data-toggle="popover" /></a>
+                    <a href="#" class="col-md-3"><img src="images/no_goods.png" alt="" class="img-rounded user-goods" width="100%" data-toggle="popover" /></a>
+                  </div>
+                </div>
+                <div class="col-md-1 ta-mid">
+                  <img src="images/no_goods.png" class="img-circle" width="100%">
+                  <span class="mr-tb">美美哒</span>
+                  <span class="mr-tb">金卡会员</span>
+                  <span class="mr-tb">1天前</span>
+                </div>
+              </div>
+              <div class="col-md-12 d_msg cut_line">
+                <div class="col-md-11">
+                  <span class="col-md-12"><span class="grade-star g-star3 fl"></span>用户评价</span>
+                  <span class="col-md-12" style="margin:10px 0">还行吧，可能是我的耳朵比较小，有点塞耳朵，如果能有不同尺寸选择相信隔音效果和舒适度会更好。还行吧，可能是我的耳朵比较小，有点塞耳朵，如果能有不同尺寸选择相信隔音效果和舒适度会更好。</span>
+                </div>
+                <div class="col-md-1 ta-mid">
+                  <img src="images/no_goods.png" class="img-circle" width="100%">
+                  <span class="mr-tb">美美哒</span>
+                  <span class="mr-tb">金卡会员</span>
+                  <span class="mr-tb">1天前</span>
+                </div>
+              </div>
+              <div class="col-md-12 d_msg cut_line">
+                <div class="col-md-11">
+                  <span class="col-md-12"><span class="grade-star g-star2 fl"></span>用户评价</span>
+                  <span class="col-md-12" style="margin:10px 0">还行吧，可能是我的耳朵比较小，有点塞耳朵，如果能有不同尺寸选择相信隔音效果和舒适度会更好。</span>
+                  <div class="col-md-6 row">
+                    <a href="#" class="col-md-3"><img src="images/no_goods.png" alt="" class="img-rounded user-goods" width="100%" data-toggle="popover" /></a>
+                    <a href="#" class="col-md-3"><img src="images/no_goods.png" alt="" class="img-rounded user-goods" width="100%" data-toggle="popover" /></a>
+                  </div>
+                </div>
+                <div class="col-md-1 ta-mid">
+                  <img src="images/no_goods.png" class="img-circle" width="100%">
+                  <span class="mr-tb">美美哒</span>
+                  <span class="mr-tb">金卡会员</span>
+                  <span class="mr-tb">1天前</span>
+                </div>
+              </div>
+              <div class="col-md-12 d_msg cut_line">
+                <div class="col-md-11">
+                  <span class="col-md-12"><span class="grade-star g-star1 fl"></span>用户评价</span>
+                  <span class="col-md-12" style="margin:10px 0">还行吧，可能是我的耳朵比较小，有点塞耳朵，如果能有不同尺寸选择相信隔音效果和舒适度会更好。</span>
+                  <div class="col-md-6 row">
+                    <a href="#" class="col-md-3"><img src="images/no_goods.png" alt="" class="img-rounded user-goods" width="100%" data-toggle="popover" /></a>
+                  </div>
+                </div>
+                <div class="col-md-1 ta-mid">
+                  <img src="images/no_goods.png" class="img-circle" width="100%">
+                  <span class="mr-tb">美美哒</span>
+                  <span class="mr-tb">金卡会员</span>
+                  <span class="mr-tb">1天前</span>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab3">
+              <ul class="goods_page">
+                <li class="col-md-4">
+                  <a href="#">
+                    <img src="images/no_goods.png" alt="">
+                    <span>这里显示商品标题名 超出则需要隐藏 如果不隐藏会很难看</span>
+                    <span>这里显示商品简介 超出则需要隐藏  如果不隐藏会很难看</span>
+                    <b>9999 EP积分</b>
+                    <small>销量：999</small>
+                    <i class="tip new">新品</i>
+                  </a>
+                </li>
+                <li class="col-md-4">
+                  <a href="#">
+                    <img src="images/no_goods.png" alt="">
+                    <span>这里显示商品标题名 超出则需要隐藏 如果不隐藏会很难看</span>
+                    <span>这里显示商品简介 超出则需要隐藏  如果不隐藏会很难看</span>
+                    <b>9999 EP积分</b>
+                    <small>销量：999</small>
+                    <i class="tip new">新品</i>
+                  </a>
+                </li>
+                <li class="col-md-4">
+                  <a href="#">
+                    <img src="images/no_goods.png" alt="">
+                    <span>这里显示商品标题名 超出则需要隐藏 如果不隐藏会很难看</span>
+                    <span>这里显示商品简介 超出则需要隐藏  如果不隐藏会很难看</span>
+                    <b>9999 EP积分</b>
+                    <small>销量：999</small></a>
+                  <i class="tip hot">爆款</i>
+                </li>
+                <li class="col-md-4">
+                  <a href="#">
+                    <img src="images/no_goods.png" alt="">
+                    <span>这里显示商品标题名 超出则需要隐藏 如果不隐藏会很难看</span>
+                    <span>这里显示商品简介 超出则需要隐藏  如果不隐藏会很难看</span>
+                    <b>9999 EP积分</b>
+                    <small>销量：999</small></a>
+                  <i class="tip sale">折扣</i>
+                </li>
+                <li class="col-md-4">
+                  <a href="#">
+                    <img src="images/no_goods.png" alt="">
+                    <span>这里显示商品标题名 超出则需要隐藏 如果不隐藏会很难看</span>
+                    <span>这里显示商品简介 超出则需要隐藏  如果不隐藏会很难看</span>
+                    <b>9999 EP积分</b>
+                    <small>销量：999</small></a>
+                  <i class="tip free">买赠</i>
+                </li>
+                <li class="col-md-4">
+                  <a href="#">
+                    <img src="images/no_goods.png" alt="">
+                    <span>这里显示商品标题名 超出则需要隐藏 如果不隐藏会很难看</span>
+                    <span>这里显示商品简介 超出则需要隐藏  如果不隐藏会很难看</span>
+                    <b>9999 EP积分</b>
+                    <small>销量：999</small></a>
+                </li>
+                <li class="col-md-4">
+                  <a href="#">
+                    <img src="images/no_goods.png" alt="">
+                    <span>这里显示商品标题名 超出则需要隐藏 如果不隐藏会很难看</span>
+                    <span>这里显示商品简介 超出则需要隐藏  如果不隐藏会很难看</span>
+                    <b>9999 EP积分</b>
+                    <small>销量：999</small></a>
+                </li>
+                <li class="col-md-4">
+                  <a href="#">
+                    <img src="images/no_goods.png" alt="">
+                    <span>这里显示商品标题名 超出则需要隐藏 如果不隐藏会很难看</span>
+                    <span>这里显示商品简介 超出则需要隐藏  如果不隐藏会很难看</span>
+                    <b>9999 EP积分</b>
+                    <small>销量：999</small></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <ul class="goods_page">
+            <h4>摩宝精选</h4>
+            <li style="width:100%">
+              <a href="#">
+                <img src="images/no_goods.png" alt="">
+                <span>这里显示商品标题名 超出则需要隐藏 如果不隐藏会很难看</span>
+                <span>这里显示商品简介 超出则需要隐藏  如果不隐藏会很难看</span>
+                <b>9999 EP积分</b>
+                <small>销量：999</small>
+                <i class="tip new">新品</i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <dl class="fl">
+      <dt>购物指南</dt>
+      <dd><a href="#">购物流程</a></dd>
+      <dd><a href="#">联系客服</a></dd>
+      <dd><a href="#">免费注册</a></dd>
+    </dl>
+    <dl class="fl">
+      <dt>了解我们</dt>
+      <dd><a href="#">招商合作</a></dd>
+      <dd><a href="#">联系我们</a></dd>
+      <dd><a href="#">企业简介</a></dd>
+    </dl>
+    <dl class="fl">
+      <dt>商家服务</dt>
+      <dd><a href="#">商家帮助</a></dd>
+      <dd><a href="#">摩宝规则</a></dd>
+      <dd><a href="#">商家入驻</a></dd>
+      <dd><a href="#">行业标准</a></dd>
+    </dl>
+    <dl class="fl">
+      <dt>支付方式</dt>
+      <dd><a href="#">摩宝支付</a></dd>
+      <dd><a href="#">积分规则</a></dd>
+    </dl>
+    <ul class="contact fl">
+      <li>
+        <i class="footer_icon tel"></i>
+        <span>服务热线：<br />
+                  <font>xxx-xxx-xxx</font></span>
+      </li>
+      <li>
+        <i class="footer_icon time"></i>
+        <span>服务时间：<br />
+                  <font>周一至五  9:00-17:00</font>
+              </span>
+      </li>
+      <li>
+        <i class="footer_icon add"></i>
+        <span>总部地址：<br />
+                  <font>广东省东莞市松山湖国际金融创业园中汇世银大厦</font></span>
+      </li>
+    </ul>
+    <div class="qrcode fl" style="margin-top:25px">
+      <img src="images/qrcode.png"></div>
+    <div class="qrcode fr" style="margin-top:25px">
+      <img src="images/qrcode.png"></div>
+  </div>
+  <div class="copyright">
+    <div class="warrper">
+      <p>
+        版权所有：深圳市前海摩根数字科技有限公司 联系电话：xxx-xxxx-xxx
+        <br /> 备案号：粤icp备XXXXXXX号-1 电信增值业务许可证：粤ICP证XXXXXX号 粤公网安备 XXXXXXXXXXXXXX号
+      </p>
+    </div>
+  </div>
+  <div class="Telescopic_page">
+    <div class="float_nav">
+      <a href="buycar.html"><img src="images/buycar.png"><span>购物车</span><i class="buycar_tip">5</i></a>
+      <a href="javascript:;"><img src="images/weixin.png"><span>反馈</span></a>
+      <a href="javascript:;" class="return_top"><i class="glyphicon glyphicon-chevron-up" style="margin-right:0"></i><span>顶部</span></a>
+    </div>
+  </div>
+  <script src="js/jquery.1.9.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.jqzoom.js"></script>
+  <script src="js/detail.pic.js"></script>
+  <script src="js/jquery.spinner.js"></script>
+  <script src="js/myscript.js"></script>
+  <script src="js/popover.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.spinnerExample').spinner({});
+    })
+  </script>
+</body>
+
+</html>

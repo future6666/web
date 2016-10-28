@@ -1,0 +1,84 @@
+/*PX与rem换算关系
+|  px  |     rem       |
+------------------------
+|  12  | 12/16 = .75   |
+|  14  | 14/16 = .875  |
+|  16  | 16/16 = 1     |
+|  18  | 18/16 = 1.125 |
+|  20  | 20/16 = 1.25  |
+|  24  | 24/16 = 1.5   |
+|  30  | 30/16 = 1.875 |
+|  36  | 36/16 = 2.25  |
+|  42  | 42/16 = 2.625 |
+|  48  | 48/16 = 3     |
+*/
+
+body,div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; font-weight:normal}
+body { background:#fff; color:#555; font-size:12px; font-family: Verdana, Arial, Helvetica, "微软雅黑"; position:relative}
+body.modal-open {overflow-y: auto !important;padding-right: 0 !important}
+td,th,caption { font-size:.875rem; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal;}
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a, a:visited, a:active, a:focus { color:#555; text-decoration:none !important; cursor: pointer}
+a:hover{ text-decoration:none  !important; color:#e46714}
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:.875 Verdana,Helvetica,Arial, "微软雅黑"; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0;}
+a,button,input{display:inline-block}
+span {display:inline-block}
+input,button,a {outline:0 none !important; blur:expression(this.onFocus=this.blur())} 
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+.fl {float:left}
+.fn {float:none}
+.fr {float: right;}
+.floatfix {clear: both}
+
+.ta-mid {text-align: center}
+.ta-left {text-align: left}
+.ta-right{text-align: right}
+
+.mr-tb {margin:5px 0}
+
+/*各种浮动，对齐，层属性*/
+.fr {float:right}
+.fl {float:left}
+.clear {clear:both}
+.tc {text-align: center;}
+.tr {text-align: right;}
+.tl {text-align: left !important;}
+.hide {display:none;}
+.block {display:block;}
+.ib {display:inline-block}
+.oh {overflow: hidden;}
+
+.link_red {color:#d72624}
+.link_red:hover {color:#ffd800}
+.link_white {color:#fff}
+.link_white:hover {color:#ffd800}
+
+.f_gray {color:#7d7d7d}
+.f_red {color:#c11513}
+.f_black {color:#000}
+
+.px12{font-size:12px}
+.px14{font-size:14px}
+.px16{font-size:16px}
+.px18{font-size:18px}
+.px24{font-size:24px}
+
+.fn{font-weight:normal}
+.fb {font-weight:bold}
+
+.d_l {text-decoration:line-through}

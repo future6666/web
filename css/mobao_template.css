@@ -1,0 +1,49 @@
+bady{background:#fff !important}
+.tc {text-align:center}
+.warper {width: 100%;max-width: 1920px;height: auto}
+.box_1100{width:1100px;height:auto;overflow:hidden;margin:0 auto}
+.logo_bar {width:550px; height:auto; padding:20px 0}
+.seach_bar {width:550px; height:auto; padding:20px 0; overflow:hidden}
+.seach_bar .s_box {border:1px solid #000; width:280px; height:30px; margin:5px 0}
+.seach_bar .s_box span {margin:5px 0; height:20px; line-height:20px; padding:0 10px; border-right:1px solid #999}
+.seach_bar .s_box input[type="text"] {border:0; background:none; width:168px; padding-left:5px; height:30px}
+.seach_bar .s_box input[type="submit"] {border:0; background:url(../images/t_icon.png) no-repeat 3px 5px; height:30px; width:30px}
+
+.nav_menu {width:100%; height:35px; line-height:35px; background:#000; color:#fff}
+.nav_menu div ul {width:100%; height:auto; overflow:hidden}
+.nav_menu div ul li {width:137.5px; height:35px; text-align:center; position:relative; cursor:pointer}
+.nav_menu div ul .on {background:#c11513}
+.nav_menu div ul li a {color:#fff}
+.nav_menu div ul li .hot {width:23px; height:9px; background:url(../images/t_icon.png) no-repeat -27px -4px; position:absolute; top:5px; right:15px; z-index:99;}
+
+.kefu {width:100%; height:35px; line-height:35px; border-top:1px solid #d4d4d4; border-bottom:1px solid #d4d4d4}
+.kefu div ul {width:550px; height:35px; overflow:hidden}
+.kefu div ul li {width:110px; height:35px; line-height:35px; text-align:center}
+
+.yuan {width:100%; height:350px}
+.yuan div {position:relative}
+.yuan div ul {width:90%; margin:0 auto; overflow:hidden}
+.yuan div ul li {width:250px; height:250px; overflow:hidden; border-radius:100%; margin:50px 40px; position:relative}
+.yuan div li a{width:250px; height:250px; overflow:hidden; border-radius:100%; background:rgba(0, 0, 0, 0.60); display:none; color:#fff; text-align:center; line-height:250px; font-size:22px; position:absolute; top:0; left:0}
+
+.daohang {width:100%; height:auto; background:#ae120e; padding:20px 0}
+.daohang div dl {width:14.27%; height:auto}
+.daohang div dl dt {color:#fff; border-bottom:1px solid #de8a88; padding-bottom:10px; width:95%}
+.daohang div dl dd {line-height:35px}
+.daohang div dl dd a {color:#fff}
+.daohang div dl dd a:hover {color:yellow}
+
+.hot {width:100%; height:auto; overflow:hidden}
+.hot div .tits {position:relative; margin:20px 0}
+.hot div .tits h1 {color:#7c7c7c; font-size:30px; width:30%; margin:0 auto; background:#fff}
+.hot div p {overflow:hidden; text-align:center; width:60%; margin:20px auto}
+.hot div p a {color:#939393; width:12.5%; height:auto; text-align:center}
+.hot div p a:hover {background:#ae120e; color:#fff}
+.hot div .tits .name {width:224px; height:166px; background:url(../images/t_tit.jpg) no-repeat top; line-height:18px; padding-top:50px; text-align:left; padding-left:69px}
+.hot div .tits .tits_line {background:#d4d4d4; height:1px; position:absolute; top:50%; left:0; margin-top:-0.5px; width:100%; z-index:-1}
+.hot div ul {width:88%; height:auto; overflow:hidden; margin:0 auto}
+.hot div ul .m_l_20 {margin-left:20px}
+.hot div .m_t_10 {margin-top:20px}
+.hot div ul li {width:auto; height:auto; margin-bottom:20px}
+.hot div ul li span {height:31px; line-height:31px; margin:0 0 0 5px}
+.hot div ul li span .buy {background:url(../images/t_icon.png) no-repeat -62px -1px; width:16px; height:16px; margin:7.5px 0 7.5px 5px}
